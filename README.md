@@ -17,6 +17,8 @@ The web app was built in Python using the following libraries:
 * scikit_learn==0.24.0
 
 
-![alt text](https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/images/SharedScreenshotsdv.jpg)
+
+
 ![alt text](https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/images/SharedScreenshot.jpg)
+![alt text](https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/images/SharedScreenshotsdv.jpg)
 ![alt text](https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/images/xcv.jpg)
