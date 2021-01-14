@@ -19,10 +19,10 @@ st.write("""
 
 
 #Get the data
-df = pd.read_csv("https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/Chronic_KIdney_Disease_data.csv")
+df = pd.read_csv("Chronic_KIdney_Disease_data.csv")
 #Show the data as a table (you can also use st.write(df))
-st.write(df))
-#st.image("https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/images/img.jpg")
+
+st.image("https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/images/img.jpg")
 
 st.subheader('Data Information:')
 
