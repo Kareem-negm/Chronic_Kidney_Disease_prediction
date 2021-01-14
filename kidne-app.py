@@ -96,7 +96,7 @@ st.subheader('User Input :')
 st.write(user_input)
 
 
-load_clf = pickle.load(open("https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/klney_clf.pkl", 'rb'))
+load_clf = pickle.load(open("klney_clf.pkl", 'rb'))
 
 prediction = load_clf.predict(user_input)
 st.subheader('Classification: ')
