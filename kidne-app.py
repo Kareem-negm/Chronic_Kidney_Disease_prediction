@@ -1,7 +1,7 @@
 
 import pandas as pd
 import numpy as np
-#import seaborn as sns
+import seaborn as sns
 import matplotlib.pyplot as plt
 import webbrowser
 import tensorflow as tf
@@ -32,8 +32,8 @@ st.write(df.describe())
 # Show the data as a chart.
 st.set_option('deprecation.showPyplotGlobalUse', False)
 f,ax = plt.subplots(figsize=(20, 20))
-#st.write(sns.heatmap(df.corr(),annot=True))
-#st.pyplot()
+st.write(sns.heatmap(df.corr(),annot=True))
+st.pyplot()
 
 #Split the data into independent 'X' and dependent 'Y' variables
 array = df.values
