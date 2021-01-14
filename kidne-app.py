@@ -22,7 +22,7 @@ st.write("""
 df = pd.read_csv("https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/Chronic_KIdney_Disease_data.csv")
 #Show the data as a table (you can also use st.write(df))
 
-st.image("https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/images/%D8%AA%D9%86%D8%B2%D9%8A%D9%84.jpg")
+st.image("https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/images/img.jpg")
 
 st.subheader('Data Information:')
 
