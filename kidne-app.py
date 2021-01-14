@@ -1,7 +1,7 @@
 
 import pandas as pd
 import numpy as np
-import seaborn as sns
+#import seaborn as sns
 import matplotlib.pyplot as plt
 import webbrowser
 import tensorflow as tf
@@ -19,7 +19,7 @@ st.write("""
 
 
 #Get the data
-df = pd.read_csv("C:/Users/negmk/Desktop/Chronic_KIdney_Disease_prediction/Chronic_KIdney_Disease_data (2).csv")
+df = pd.read_csv("https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/Chronic_KIdney_Disease_data%20(2).csv")
 #Show the data as a table (you can also use st.write(df))
 
 st.image("https://www.healtheuropa.eu/wp-content/uploads/2018/04/iStock-650717510-696x392.jpg")
@@ -32,8 +32,8 @@ st.write(df.describe())
 # Show the data as a chart.
 st.set_option('deprecation.showPyplotGlobalUse', False)
 f,ax = plt.subplots(figsize=(20, 20))
-st.write(sns.heatmap(df.corr(),annot=True))
-st.pyplot()
+#st.write(sns.heatmap(df.corr(),annot=True))
+#st.pyplot()
 
 #Split the data into independent 'X' and dependent 'Y' variables
 array = df.values
@@ -106,7 +106,7 @@ st.subheader('User Input :')
 st.write(user_input)
 
 
-load_clf = pickle.load(open("C:/Users/negmk/Desktop/Chronic_KIdney_Disease_prediction/klney_clf.pkl", 'rb'))
+load_clf = pickle.load(open("https://github.com/Kareem-negm/Chronic_Kidney_Disease_prediction/blob/main/klney_clf.pkl", 'rb'))
 
 prediction = load_clf.predict(user_input)
 st.subheader('Classification: ')
