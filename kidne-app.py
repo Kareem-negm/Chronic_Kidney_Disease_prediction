@@ -35,16 +35,6 @@ f,ax = plt.subplots(figsize=(20, 20))
 st.write(sns.heatmap(df.corr(),annot=True))
 st.pyplot()
 
-#Split the data into independent 'X' and dependent 'Y' variables
-array = df.values
-y=array[:,-1]
-x_data=array[:,:-1]
-
-x=(x_data-np.min(x_data))/(np.max(x_data)-np.min(x_data))
-
-# Split the dataset into 75% Training set and 25% Testing set
-X_train, X_test, Y_train, Y_test = train_test_split(x, y, test_size = 0.25, random_state = 33,shuffle=True)
-
 
 #Get the feature input from the user
 def get_user_input():
