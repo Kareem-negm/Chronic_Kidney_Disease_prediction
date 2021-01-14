@@ -6,3 +6,7 @@ pickle==0.0.11
 seaborn
 matplotlib==3.3.2
 webbrowser==0.0.0
+
+seaborn==0.11.0 \
+    --hash=sha256:62439a38482decdb263a8339f54ecb9823995ad8716abc830e91ca0753201e70 \
+    --hash=sha256:390f8437b14f5ce845062f2865ad51656464c306d09bb97d7764c6cba1dd607c
